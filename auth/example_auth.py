@@ -1,4 +1,4 @@
-import auth
+import auth.auth as auth
 
 # 设置测试用户和权限
 auth.authenticator.add_user("joe", "joepassword")
@@ -57,7 +57,6 @@ class Editor:
 
     def menu(self):
         try:
-            answer = ""
             while True:
                 print("""
                 Please enter a command:
@@ -74,7 +73,7 @@ class Editor:
                 else:
                     func()
         finally:
-            print("Thank you for testing the auth module")login
+            print("Thank you for testing the auth module")
 
 
 if __name__ == "__main__":
