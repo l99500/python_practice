@@ -85,3 +85,4 @@ webencodings==0.5.1
 websockets==8.1
 widgetsnbextension==3.5.2
 zipp==3.6.0
+requests~=2.27.1
