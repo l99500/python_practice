@@ -1,3 +1,8 @@
+"""
+观察者模式：让指定的对象被未知的一组动态“观察者”对象所监控
+"""
+
+
 class Inventory:
     def __init__(self):
         self.observers = []

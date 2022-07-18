@@ -1,5 +1,10 @@
 from PIL import Image
 
+"""
+策略模式：为同一问题实现不同的解决方案，每个方案都是不同的对象。
+客户端代码可以在运行时动态选择最合适的实现。
+"""
+
 
 class TiledStrategy:
     def make_background(self, img_file, desktop_size):
